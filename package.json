@@ -1,0 +1,22 @@
+{
+  "name": "Test",
+  "version": "0.0.1",
+  "main": "index.html",
+  "single-instance": true,
+  "window": {
+    "title": "Test",
+    "toolbar": false,
+    "width": 1024,
+    "height": 768,
+    "min_width": 1024,
+    "min_height": 600,
+    "resizable": true
+  },
+  "jspm": {
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
